@@ -63,7 +63,7 @@ public class Controller {
         });
         gridPane.setPrefSize(WIDTH, HEIGHT);
 
-        Image image = new Image(getClass().getResourceAsStream("/gui/bg.jpg"));
+        Image image = new Image(getClass().getResourceAsStream("/gui/Plateau.jpg"));
         BackgroundSize size = new BackgroundSize(WIDTH, WIDTH, true, false, false, true);
         gridPane.setBackground(new Background(new BackgroundImage(image, null, null, null, size)));
         Scene scene = new Scene(new FlowPane(gridPane), 760, 760);
